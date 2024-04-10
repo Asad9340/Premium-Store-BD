@@ -2,10 +2,7 @@
   {
     "id": 1,
     "name": "Netflix",
-    "price": {
-      "1_month": "$12.99",
-      "1_year": "$155.88"
-    },
+    "price":"$12.99",
     "rating": "4.5/5",
     "image": "https://images3.alphacoders.com/115/1152293.png",
     "content": "Movies, TV shows, Originals",
@@ -15,10 +12,7 @@
   {
     "id": 2,
     "name": "Amazon Prime Video",
-    "price": {
-      "1_month": "$8.99",
-      "1_year": "$108.00"
-    },
+    "price":"$8.99",
     "rating": "4/5",
     "image": "https://ew.com/thmb/ZaU11DoTPUYtXjdrzEtEDcM9apc=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/amazon-prime-video-e7828eac13f74731bfeeb005f809c82e.jpg",
     "content": "Movies, TV shows, Originals",
@@ -28,10 +22,7 @@
   {
     "id": 3,
     "name": "Disney+",
-    "price": {
-      "1_month": "$7.99",
-      "1_year": "$79.99"
-    },
+    "price":"$7.99",
     "rating": "4.7/5",
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHp3dX79Lh4h-XwAnC2XgPnxW7IGq7Sbwp7jOpBFJ0Tg&s",
     "content": "Disney, Pixar, Marvel, Star Wars content",
@@ -41,10 +32,7 @@
   {
     "id": 4,
     "name": "Hulu",
-    "price": {
-      "1_month": "$5.99",
-      "1_year": "$71.88"
-    },
+    "price":"$5.99",
     "rating": "4.2/5",
     "image": "https://yt3.googleusercontent.com/RtSHMfypXFjjzRCp8lqbBLIpYV5fNHwEuZ4d2IIFoGo_YIljaYmZECFtk6A8msdoV8FHgF8J=s900-c-k-c0x00ffffff-no-rj",
     "content": "TV shows, Originals, Movies",
@@ -54,10 +42,7 @@
   {
     "id": 5,
     "name": "Chorki",
-    "price": {
-      "1_month": "BDT 299",
-      "1_year": "BDT 1999"
-    },
+    "price":"BDT 299",
     "rating": "4.2/5",
     "image": "https://upload.wikimedia.org/wikipedia/commons/d/d2/Chorki_Logo.png",
     "content": "Bangladeshi TV shows, Movies",
@@ -67,10 +52,7 @@
   {
     "id": 6,
     "name": "Aha",
-    "price": {
-      "1_month": "INR 149",
-      "1_year": "INR 699"
-    },
+    "price":"INR 149",
     "rating": "4.3/5",
     "image": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Aha_OTT_Logo.svg",
     "content": "Telugu movies, Originals",
@@ -80,10 +62,7 @@
   {
     "id": 7,
     "name": "Hoichoi",
-    "price": {
-      "1_month": "INR 499",
-      "1_year": "INR 699"
-    },
+    "price":"INR 499",
     "rating": "4.4/5",
     "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Hoichoi-Logos-3.png/1200px-Hoichoi-Logos-3.png",
     "content": "Bengali movies, Originals",
@@ -93,10 +72,7 @@
   {
     "id": 8,
     "name": "HBO Max",
-    "price": {
-      "1_month": "$14.99",
-      "1_year": "$179.88"
-    },
+    "price":"$14.99",
     "rating": "4.6/5",
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1hiTReLRKwXy6jQ4yLRIJ-yBjQWHa_ZtQTR7P0cg9cg&s",
     "content": "Movies, TV shows, Originals",
@@ -106,10 +82,7 @@
   {
     "id": 8,
     "name": "HBO Max",
-    "price": {
-      "1_month": "$14.99",
-      "1_year": "$179.88"
-    },
+    "price":"$14.99",
     "rating": "4.6/5",
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1hiTReLRKwXy6jQ4yLRIJ-yBjQWHa_ZtQTR7P0cg9cg&s",
     "content": "Movies, TV shows, Originals",

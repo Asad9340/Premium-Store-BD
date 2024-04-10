@@ -6,7 +6,7 @@ import {
   Button,
   IconButton,
 } from '@material-tailwind/react';
-import { NavLink } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 
 function NavigationBar() {
   const [openNav, setOpenNav] = React.useState(false);
@@ -78,13 +78,16 @@ function NavigationBar() {
               >
                 <span>Sign Up</span>
               </Button>
-              <Button
-                variant="gradient"
-                size="md"
-                className="hidden lg:inline-block"
-              >
-                <span>Sign in</span>
-              </Button>
+              <Link to='/login'>
+                {' '}
+                <Button
+                  variant="gradient"
+                  size="md"
+                  className="hidden lg:inline-block"
+                >
+                  <span>Sign in</span>
+                </Button>
+              </Link>
             </div>
             <IconButton
               variant="text"

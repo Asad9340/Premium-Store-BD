@@ -9,8 +9,8 @@ function Home() {
         Streaming Sites
       </h2>
       <div className="grid gap-6 grid-cols-1 md:grid-cols-3">
-        {data.map(item => (
-          <Card key={item.id} item={item}></Card>
+        {data.map((item,index) => (
+          <Card key={index} item={item}></Card>
         ))}
       </div>
     </div>
