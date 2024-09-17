@@ -7,6 +7,7 @@ import Profile from './components/Profile';
 import Home from './Pages/Home/Home';
 import Descriptions from './components/Descriptions';
 import Login from './Pages/LogIn/Login';
+import ElementsWrapper from './components/ElementsWrapper/ElementsWrapper';
 
 const router = createBrowserRouter([
   {
@@ -23,8 +24,12 @@ const router = createBrowserRouter([
         element: <Profile />,
       },
       {
+        path: '/checkout',
+        element: <ElementsWrapper />,
+      },
+      {
         path: '/login',
-        element: <Login/>
+        element: <Login />,
       },
       {
         path: '/descriptions/:id',

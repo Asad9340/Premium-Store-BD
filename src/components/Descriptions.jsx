@@ -1,4 +1,4 @@
-import { useParams } from 'react-router-dom';
+import { Link, useParams } from 'react-router-dom';
 import { useLoaderData } from 'react-router-dom';
 import { FaStar } from 'react-icons/fa6';
 import { FaRegStarHalfStroke } from 'react-icons/fa6';
@@ -30,9 +30,11 @@ function Descriptions() {
       <li>24/7 Online Support</li>
       <li>Renewable Account with Pin lock</li>
       <p className="text-gray-800">{description}</p>
-      <div className='flex gap-6'>
+      <div className="flex gap-6">
         <Button>Add to Cart</Button>
-        <Button>Buy Now</Button>
+        <Link to={'/checkout'}>
+          <Button>Buy Now</Button>
+        </Link>
       </div>
     </div>
   );
